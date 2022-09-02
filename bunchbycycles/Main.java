@@ -11,7 +11,7 @@ public class Main {
     CountsByUsage counts = new CountsByUsage();
     for ( int i=0; i<cycles.length; i++)
     {
-        if(cycles[i] > 400 && cycles[i]<919)
+        if(cycles[i] > 400 && cycles[i]<=919)
               mediumCount++;
         else if (cycles[i] > 919)
                highCount++;
